@@ -1,0 +1,25 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: royalblue;
+}
+
+.nav-header {
+  display: flex;
+  height: 7vh;
+  background-color: black;
+}
+
+.main-article {
+background-color: aqua;
+}
+
+.hot-galleries {
+background-color: pink;
+}
+
+.videos {
+background-color: red;
+}
