@@ -1,1 +1,2 @@
-console.log('test')
+const subscriberEl = document.querySelector(".subscribe");
+console.log(subscriberEl);
