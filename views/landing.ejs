@@ -6,8 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Font Awesome Icons-->
 <script src="https://kit.fontawesome.com/e8e8baf45e.js" crossorigin="anonymous"></script>
-
-
   <!-- STYLESHEET -->
   <link rel="stylesheet" href="/style.css">
   <!-- BOOTSTRAP CSS CDN -->
@@ -31,12 +29,11 @@
     <!-- ICONS     -->
     <div class="icons-container">
       <!-- SIGN UP  -->
-      <a href="#name">
+      <a href="#input-name">
       <button class="sign-up-button">
         <span class="sign-up">Sign Up</span>
       </button>
       </a>
-      
       <div class="divider"></div>
       <!-- MAGNIFYING GLASS  -->
       <div class="magnifying-glass-container">
@@ -109,22 +106,22 @@
   
   <!-- Subscribe -->
   <div class="form-container">
-  <section class="stephen-Sub">
-        <h1 id="sub">SUBSCRIBE</h1>
-        <br>
-        <h2 id="life">Your go-to for the info you <br> need to live  your best life.</h2>
-        <!-- Form -->
-        <form class="sub-form" novalidate>
-          <label class="name">
-            <input id="name" class="input" type="text" name="f/lName" value="" placeholder="   First/Last Name">
-          </label>
-          <label class="email">
-            <div class="error-message hidden"></div>
-            <input id="input-email" class="input" type="email" name="email" value="" placeholder="   Email">
-          </label>
-          <button type="submit" class="btn" name="subscribe">Subscribe</button>
-      </form>
-    </section>
+ <section class="stephen-Sub" id="stephen-sub">
+  <h1 id="sub">SUBSCRIBE</h1>
+  <br>
+  <h2 id="life">Your go-to for the info you <br> need to live  your best life.</h2>
+  <!-- Form -->
+  <form class="sub-form" novalidate action="/" method="POST">
+    <label class="name">
+      <input id="input-name" class="input" type="text" name="name" value="" placeholder="   First/Last Name">
+    </label>
+    <label class="email">
+      <div class="error-message hidden"></div>
+      <input id="input-email" class="input" type="email" name="email" value="" placeholder="   Email">
+    </label>
+    <button type="submit" class="btn" name="subscribe">Subscribe</button>
+  </form>
+  </section>
   </div>
 
     <!-- BACK TO TOP -->

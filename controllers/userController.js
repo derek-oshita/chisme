@@ -13,13 +13,14 @@ router.get('/', (req, res) => {
 //task CREATE route
 router.post('/', (req, res) => {
   const newUser = req.body;
+  console.log(newUser)
   db.User.create(
     newUser,
     (err, createdUser) => {
       if (err) return console.log(err);
       console.log(createdUser)
 
-      res.redirect('/');
+      res.redirect('/dashboard');
     });
   });
 
