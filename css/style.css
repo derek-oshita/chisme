@@ -1,4 +1,6 @@
-/* UNIVERSAL */
+/************************************************************************* 
+UNIVERSAL 
+*/
 
 * {
   font-family: Helvetica, sans-serif; 
@@ -21,10 +23,30 @@ body {
 } 
 
 .divider {
-  width: 15px; 
+  width: 13px; 
 }
 
-/* NAV BAR */
+.ally {
+  color: white; 
+  font-size: 10px; 
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a:visited {
+  text-decoration: none; 
+}
+
+/************************************************************************* 
+NAV-BAR
+*/
 
 header {
   width: 100vw; 
@@ -33,12 +55,16 @@ header {
 
 #nav-bar-container {
   /* width: 100vw;  */
-  height: 7vh; 
+  height: 9vh; 
   display: flex; 
   align-items: center;
   background-color: #D90368; 
 }
- /*Stephen*/
+
+/************************************************************************* 
+STEPHEN
+*/
+
 .videos {
 background-color: red;
 }
@@ -111,6 +137,7 @@ background-color: red;
   padding-bottom: 5px;
   border-bottom: 1px solid #fff;
 }
+
 /*Stephen*/
 
 .nav-link-list {
@@ -125,28 +152,37 @@ background-color: red;
 }
 
 .nav-link {
-  font-size: 20px; 
+  font-size: 24px; 
 }
 
-/* ICONS */
+/************************************************************************* 
+ICONS
+*/
 
 .icons-container {
   display: flex; 
   align-items: center;
 }
 
-.sign-in {
+.sign-up {
   text-align: center; 
   white-space: nowrap; 
   color:grey; 
   font-style: italic; 
+  font-size: 20px; 
 }
 
-.sign-in-button {
+.sign-up-button {
   background-color: white;
-  width: 10vw; 
+  width: 12vw; 
   height: 5vh; 
-  border-radius: 10px; 
+  border-radius: 5px;
+  padding: 0; 
+  border: none; 
+}
+
+.magnifying-glass-container {
+  text-align: center; 
 }
 
 #magnifying-glass {
@@ -155,33 +191,49 @@ background-color: red;
   height: 4vh; 
 }
 
+.menu-container {
+  text-align: center; 
+}
+
 #menu {
   color: white; 
   width: 4vw; 
   height: 4vh;
 }
 
-/* LOGO */
+/************************************************************************* 
+LOGO
+*/
 
 #logo-container {
   display: flex; 
   align-items: center;
   justify-content: center;
   background-color: #E5CDC8; 
-  height: 12vh; 
+  height: 14vh; 
   width: 100vw; 
 }
 
 h1 {
   font-style: italic; 
   color: #D90368; 
-  font-size: 65px; 
+  font-size: 48px; 
 }
 
-/* KANYE PHOTO */
+/************************************************************************* 
+PHOTO 
+*/
+
+.image-container {
+  width: 100vw; 
+  display: flex; 
+  justify-content: center;
+}
 
 main {
   text-align: center; 
+  /* remove width to center */
+  width: 59.5vw; 
 }
 
 #yeezy {
@@ -190,7 +242,23 @@ main {
   height: 682px;  */
 }
 
-/* HEADLINE AND CONTENT */
+#jess-cohen {
+  font-family: Helvetica;
+  color: black; 
+  font-size: 10px;
+  text-align: left;
+}
+
+#date {
+  font-family: Helvetica;
+  color: black; 
+  font-size: 10px;
+  color: #9E9C9C; 
+}
+
+/************************************************************************* 
+HEADLINE & CONTENT
+*/
 
 .article-container-container {
   width: 100vw; 
@@ -212,12 +280,14 @@ h2 {
 }
 
 .article-content {
-  font-size: 15px; 
+  font-size: 12px; 
   margin-bottom: 76px;
 
 }
 
-/* FOOTER */
+/************************************************************************* 
+FOOTER
+*/
 
 footer {
   background-color: #D90368; 
@@ -382,8 +452,6 @@ footer {
   color: white; 
   font-size: 20px;
 }
-
-
 
 .back-up {
   background-color: black; 
