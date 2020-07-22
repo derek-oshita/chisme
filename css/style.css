@@ -43,19 +43,20 @@ header {
 background-color: red;
 }
 
-.subscribe{
+.stephen-Sub{
   height: 520px;
   width: 920px;
   font-family: Helvetica;
   border: 50px solid;
   border-color: rgb(229,205,200);
   padding: 3%;
-  margin: center;
-  position: fixed; 
+  margin-left: 250px;
   left: 15%; 
   font-weight: bold;
   font-style: oblique;
 }
+
+
 
 #sub {
   font-size: 48px;
@@ -83,7 +84,7 @@ background-color: red;
    margin-top: 10px;
 }
 
-.subscribeBtn  {
+.btn  {
     background-color: rgb(218,60,104);
     border-color: rgb(218,60,104);
     height: 74px;
@@ -101,7 +102,7 @@ background-color: red;
 
 }
 
-.subscribeBtn:hover {
+.btn:hover {
   color: #fff;
   padding-bottom: 5px;
   border-bottom: 1px solid #fff;
