@@ -13,21 +13,77 @@
 </head>
 <body>
 
-  <section calss="dashboard">
+    <!-- HEADER / NAV BAR -->
+    <header class="container" id="nav-bar-container">
+      <div class="container" id="nav-link-container">
+        <ul class="nav-link-list">
+          <li class="nav-link">Graphs</li>
+          <li class="nav-link">User Name/Password</li>
+          <li class="nav-link">Articles</li>
+        </ul>
+      </div>
+      <!-- ICONS     -->
+      <div class="icons-container">
+        <!-- SIGN IN  -->
+        <button class="sign-in-button">
+          <span class="sign-in">Sign In</span>
+        </button>
+        <div class="divider"></div>
+        <!-- MAGNIFYING GLASS  -->
+        <svg id="magnifying-glass" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+          <path fill-rule="evenodd"
+            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+        </svg>
+        <div class="divider"></div>
+        <!-- MENU -->
+        <svg id="menu" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-border-width" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z" />
+        </svg>
+      </div>
+      <div class="divider"></div>
+    </header>
+  
+    <!-- LOGO -->
+    <section class="container" id="logo-container">
+      <h1>
+        Dashboard
+      </h1>
+    </section>
+
+<!-- dashboard start -->
+  <section class="dashboard">
 
     <div class="user-info">
+      <h3>Users</h3><br>
       <% users.forEach(user => { %>
         Name: <%= user.name %><br>
         Email: <%= user.email %><br>
-      <% }); %>
+      <% });  %>
     </div>
 
-    <div class="some-graph">
-      I am a graph
+    <div class="most-viewed">
+      <h3>Times of Most Traffic</h3><br>
     </div>
 
-    <div class="something-else">
-      I am another dahboard container
+    <div class="traffic-times">
+      <h3>Viewed Article</h3><br>
+    </div>
+
+    <div class="line-graph">
+      <img src="../images/chisme-line-graph.png" alt="line graph displaying wekly logins">    
+    </div>
+
+    <div class="bar-graph">
+      <img src="../images/chisme-bar-graph.png" alt="bar graph displaying traffic times">
+    </div>
+
+    <div class="pie-chart">
+      <img src="../images/chisme-pie-chart.png" alt="pie chart of most viewed articles">
     </div>
 
   </section>
