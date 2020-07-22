@@ -78,6 +78,14 @@ header {
 }
 
  /*Stephen*/
+
+ .form-container {
+   width: 100vw;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+ }
+
 .videos {
 background-color: red;
 }
@@ -89,15 +97,13 @@ background-color: red;
   border: 50px solid;
   border-color: rgb(229,205,200);
   padding: 3%;
-  margin-left: 260px;
+  /* margin-left: 260px; */
   left: 15%; 
   font-weight: bold;
   font-style: oblique;
-  margin-bottom: 188px;
+  margin-bottom: 15vh; 
   border-radius: 3%;
 }
-
-
 
 #sub {
   font-size: 48px;
@@ -274,7 +280,7 @@ HEADLINE & CONTENT
 */
 
 .article-container-container {
-  width: 100vw; 
+  width: 100vw;
   display: flex; 
   justify-content: center;
 }
@@ -284,7 +290,6 @@ HEADLINE & CONTENT
   display: flex; 
   justify-content: flex-start;
   align-items: center;
-  /* height: 20vh;  */
 }
 
 h2 {
@@ -294,13 +299,35 @@ h2 {
 
 .article-content {
   font-size: 12px; 
-  margin-bottom: 76px;
+  /* margin-bottom: 76px; */
+}
 
+#user {
+  width: 100vw; 
+  display: flex; 
+  justify-content: center;
+  height: 25vh; 
+  margin-top: 12px; 
+}
+
+.sign {
+  width: 59.5vw; 
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0;
 }
 
 /************************************************************************* 
 FOOTER
 */
+
+.back-to-top-container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 20vh; 
+  width: 100vw; 
+}
 
 footer {
   background-color: #D90368; 
@@ -392,12 +419,13 @@ footer {
   color: #fff;
   padding-bottom: 5px;
   border-bottom: 1px solid #fff;
+  cursor: pointer;
 }
 
+/************************************************************************* 
+MELISA - DASHBOARD STYLING 
+*/
 
-
-
-/* melisa's add */
 .dashboard {
   
   display: grid;
