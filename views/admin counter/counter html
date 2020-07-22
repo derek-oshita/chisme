@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e8e8baf45e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Dashboard Tool</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>social media counter</h1>
+        </div>
+    </header>
+
+    <section class="counters"></section>
+    <div class="container">
+    <div>
+        <i class="fab fa-facebook"></i>
+        <div class="counter" data-target="20000">0</div>
+        <h3>Subscribers</h3>
+    </div>
+    <div class="container">
+        <h1>social media counter</h1>
+    </div>
+    
+
+    <section class="counters"></section>
+    <div class="container">
+    <div>
+        <i class="fab fa-twitter"></i>
+        <div class="counter" data-target="25000">0</div>
+        <h3>Subscribers</h3>
+    </div>
+    <div class="container">
+        <h1>social media counter</h1>
+    </div>
+
+
+    <section class="counters"></section>
+    <div class="container">
+    <div>
+        <i class="fab fa-instagram"></i>
+        <div class="counter" data-target="30000">0</div>
+        <h3>followers</h3>
+    </div>
+    </div>
+    </section>
+
+    <script defer src=></script>
+
+</body>
+
+</html>
