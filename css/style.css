@@ -31,6 +31,19 @@ body {
   font-size: 10px; 
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a:visited {
+  text-decoration: none; 
+}
+
 /************************************************************************* 
 NAV-BAR
 */
@@ -208,14 +221,36 @@ h1 {
 PHOTO 
 */
 
+.image-container {
+  width: 100vw; 
+  display: flex; 
+  justify-content: center;
+}
+
 main {
   text-align: center; 
+  /* remove width to center */
+  width: 59.5vw; 
 }
 
 #yeezy {
   width: 59.5vw; 
   /* width: 920px; 
   height: 682px;  */
+}
+
+#jess-cohen {
+  font-family: Helvetica;
+  color: black; 
+  font-size: 10px;
+  text-align: left;
+}
+
+#date {
+  font-family: Helvetica;
+  color: black; 
+  font-size: 10px;
+  color: #9E9C9C; 
 }
 
 /************************************************************************* 
@@ -242,7 +277,7 @@ h2 {
 }
 
 .article-content {
-  font-size: 15px; 
+  font-size: 12px; 
   margin-bottom: 76px;
 
 }
