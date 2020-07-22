@@ -280,7 +280,7 @@ HEADLINE & CONTENT
 */
 
 .article-container-container {
-  width: 100vw; 
+  width: 100vw;
   display: flex; 
   justify-content: center;
 }
@@ -290,7 +290,6 @@ HEADLINE & CONTENT
   display: flex; 
   justify-content: flex-start;
   align-items: center;
-  /* height: 20vh;  */
 }
 
 h2 {
@@ -307,6 +306,14 @@ h2 {
 /************************************************************************* 
 FOOTER
 */
+
+.back-to-top-container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 20vh; 
+  width: 100vw; 
+}
 
 footer {
   background-color: #D90368; 
