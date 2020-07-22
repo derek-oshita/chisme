@@ -313,11 +313,14 @@ footer {
 
 /* melisa's add */
 .dashboard {
+  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
-  grid-auto-rows: minmax(100px,auto);
-  margin: 10%;
+  grid-auto-rows: minmax(80px, auto);
+  margin: 0 auto;
+  padding: 3%;
+  align-items: stretch;
 }
 
 .user-info, .most-viewed, .traffic-times {
@@ -347,7 +350,7 @@ footer {
 }
 
 .line-graph {
-  width: 590px;
+  width: 450px;
   height: 330px;
 }
 .line-img{
@@ -356,8 +359,8 @@ footer {
 }
 
 .bar-graph{
-  width: 590px;
-  height: 823px;
+  width: 450px;
+  height: 523px;
 }
 .bar-img{
   width: 100%;
