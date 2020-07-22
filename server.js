@@ -2,7 +2,9 @@ const express = require('express');
 const methodOverride = require('method-override');
 const PORT = process.env.PORT || 3000;
 const session = require('express-session');
+
 const userCtrl = require('./controllers/userController');
+const adminCtrl = require("./controllers/adminController");
 
 const app = express();
 
@@ -24,9 +26,8 @@ app.use((req, res, next) => {
 // routes
 app.use('/', userCtrl);
 
-app.get('/dashboard', (req, res) => {
-  res.render('dashboard');
-})
+app.use('/dashboard', adminCtrl);
+
 
 app.get('*', (req, res) => {
   res.send('<h1> 404 Error Page Not Found<h1>');
