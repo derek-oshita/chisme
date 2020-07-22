@@ -12,8 +12,8 @@
   <script defer src="/js/app.js"></script>
   <title>Chisme!</title>
 </head>
-<body>
 
+<body>
   <!-- HEADER / NAV BAR -->
   <header class="container" id="nav-bar-container">
     <div class="container" id="nav-link-container">
@@ -94,8 +94,28 @@
       <img src="" alt="">
     </div> -->
 
-    <!-- FORM GOES HERE -->
+    <!-- USER FORM -->
+<section id="user" class="container">
+  <h2>Sign Up</h2>
+  
+  <form class="subscribe" action="/" method="POST">
+    
+    <label class="name">
+      <!-- <div class="error-message hidden">I'm an error!</div> -->
+      Name:<br>
+      <input type="text" name="name" value="" placeholder="name">
+    </label>
 
+    <label class="email">
+      <div class="error-message hidden"></div>
+      Email:<br>
+      <input type="email" name="email" value="" placeholder="email">
+    </label>
+    <br>
+    <button type="submit" class="subscribeBtn" name="subscribe">Subscribe</button>
+
+  </form>
+</section>
 
     <!-- FOOTER -->
     <footer>

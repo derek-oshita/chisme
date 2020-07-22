@@ -3,9 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Dashboard</title>
 </head>
 <body>
-  this is the dashboard page
+
+  <% users.forEach(user => { %>
+    Name: <%= user.name %><br>
+    Email: <%= user.email %><br>
+  <% }); %>
+  
 </body>
 </html>
