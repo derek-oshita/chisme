@@ -50,10 +50,11 @@ background-color: red;
   border: 50px solid;
   border-color: rgb(229,205,200);
   padding: 3%;
-  margin-left: 250px;
+  margin-left: 220px;
   left: 15%; 
   font-weight: bold;
   font-style: oblique;
+  margin-bottom: 188px;
 }
 
 
@@ -209,6 +210,8 @@ h2 {
 
 .article-content {
   font-size: 15px; 
+  margin-bottom: 76px;
+
 }
 
 /* FOOTER */
