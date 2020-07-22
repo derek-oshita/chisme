@@ -44,15 +44,19 @@ background-color: red;
 }
 
 .subscribe{
+  display: grid;
+  
+  
+  
   height: 520px;
   width: 920px;
   font-family: Helvetica;
   border: 50px solid;
   border-color: rgb(229,205,200);
-  padding: 3%;
-  margin: center;
-  position: fixed; 
-  left: 15%; 
+  /* padding: 3%; */
+  /* margin: center; */
+  /* position: fixed;  */
+  /* left: 15%;  */
   font-weight: bold;
   font-style: oblique;
 }
@@ -322,7 +326,7 @@ footer {
   height: 100%;
   margin: 10px;
   padding: 1em;
-  border-radius: 8%;
+  border-radius: 5%;
 }
 
 .line-graph, .bar-graph, .pie-chart {
@@ -331,9 +335,56 @@ footer {
   height: 100%;
   margin: 10px;
   padding: 1em;
+  border-radius: 5%;
+}
+.pie-chart {
+  width: 448px;
+  height: 384px;
+}
+.pie-img{
+  width: 100%;
+  height: 100%;
+}
+
+.line-graph {
+  width: 590px;
+  height: 330px;
+}
+.line-img{
+  width: 100%;
+  height: 100%;
+}
+
+.bar-graph{
+  width: 590px;
+  height: 823px;
+}
+.bar-img{
+  width: 100%;
+  height: 100%;
+}
+
+.dashboard-btn {
+  background-color: #D90368;
+  border: none;
+  height: 7vh; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around; 
+  align-items: center;
+  list-style: none; 
+  color: white; 
+  font-size: 20px;
 }
 
 
 
-
-
+.back-up {
+  background-color: black; 
+  width: 100vw; 
+  /* height: 8vh;  */
+  padding: 2% 5%; 
+  text-align: center; 
+  margin-bottom: 0;
+  color: white; 
+}
