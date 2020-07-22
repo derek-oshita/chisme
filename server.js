@@ -9,6 +9,10 @@ const app = express();
 app.set('view engine', 'ejs');
 
 // middlewear
+
+app.use(express.static(__dirname + '/css'));
+
+
 app.use(methodOverride('_method'));
 
 app.use(express.urlencoded({ extended: false}));
