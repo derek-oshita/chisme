@@ -10,15 +10,11 @@
 body {
   min-height: 100vh; 
   font-size: 15px; 
+  min-width: 100vw; ;
 }
 
-/* header {
-  width: 100vw; 
-  background-color: #D90368; 
-} */
-
 .container {
-  max-width: 980px;
+  width: 100vw; 
   /* display: flex;
   align-items: center;
   justify-content: center; */
@@ -30,8 +26,13 @@ body {
 
 /* NAV BAR */
 
-#nav-bar-container {
+header {
   width: 100vw; 
+  background-color: #D90368; 
+}
+
+#nav-bar-container {
+  /* width: 100vw;  */
   height: 7vh; 
   display: flex; 
   align-items: center;
@@ -39,7 +40,7 @@ body {
 }
 
 .nav-link-list {
-  padding: 12px 0 0 0; 
+  /* padding: 12px 0 0 0;  */
   height: 7vh; 
   display: flex; 
   flex-direction: row; 
@@ -47,6 +48,10 @@ body {
   align-items: center;
   list-style: none; 
   color: white; 
+}
+
+.nav-link {
+  font-size: 20px; 
 }
 
 /* ICONS */
@@ -89,12 +94,60 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #E5CDC8; 
-  height: 10vh; 
+  height: 12vh; 
   width: 100vw; 
 }
 
 h1 {
   font-style: italic; 
   color: #D90368; 
+  font-size: 65px; 
 }
 
+/* KANYE PHOTO */
+
+main {
+  text-align: center; 
+}
+
+#yeezy {
+  width: 59.5vw; 
+  /* width: 920px; 
+  height: 682px;  */
+}
+
+/* HEADLINE AND CONTENT */
+
+.article-container-container {
+  width: 100vw; 
+  display: flex; 
+  justify-content: center;
+}
+
+.article-container {
+  width: 59.5vw; 
+  display: flex; 
+  justify-content: flex-start;
+  align-items: center;
+  /* height: 20vh;  */
+}
+
+h2 {
+  font-size: 28px;
+  padding: 10px 0 10px 0; 
+}
+
+.article-content {
+  font-size: 15px; 
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #D90368; 
+  width: 100vw; 
+  padding: 2% 5%; 
+  text-align: center; 
+  margin-bottom: 0;
+  color: white; 
+}
