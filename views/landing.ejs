@@ -102,6 +102,15 @@
         </p>
       </section>
     </div>
+    <!-- social share -->
+<section id="user" class="container">
+
+    <div class="sign">
+    <div><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></div>
+    <div><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>   </div>
+    <div><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>   </div>
+      </div>
+  </section>
 
     <!-- RIGHT CONTAINER (NOT BEING USED CURRENTLY)
     <div class="container" id="right-container">
@@ -110,16 +119,6 @@
       <img src="" alt="">
     </div> -->
 
-    <!-- USER FORM -->
-<section id="user" class="container">
-
-    <div class="sign">
-
-    <div><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></div>
-    <div><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>   </div>
-    <div><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>   </div>
-      </div>
-  </section>
     
 
 
@@ -131,10 +130,12 @@
         <h2 id="life">Your go-to for the info you <br> need to live  your best life.</h2>
 
         <!-- Form -->
-        <form class="sub-form" novalidate>
+        <form class="sub-form" novalidate action="/" method="POST">
+
           <label class="name">
-            <input class="input" type="text" name="f/lName" value="" placeholder="   First/Last Name">
+            <input class="input" type="text" name="name" value="" placeholder="   First/Last Name">
           </label>
+          
           <label class="email">
             <div class="error-message hidden"></div>
             <input id="input-email" class="input" type="email" name="email" value="" placeholder="   Email">
