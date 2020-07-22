@@ -78,6 +78,14 @@ header {
 }
 
  /*Stephen*/
+
+ .form-container {
+   width: 100vw;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+ }
+
 .videos {
 background-color: red;
 }
@@ -89,15 +97,13 @@ background-color: red;
   border: 50px solid;
   border-color: rgb(229,205,200);
   padding: 3%;
-  margin-left: 260px;
+  /* margin-left: 260px; */
   left: 15%; 
   font-weight: bold;
   font-style: oblique;
   margin-bottom: 188px;
   border-radius: 3%;
 }
-
-
 
 #sub {
   font-size: 48px;
@@ -394,10 +400,10 @@ footer {
   border-bottom: 1px solid #fff;
 }
 
+/************************************************************************* 
+MELISA - DASHBOARD STYLING 
+*/
 
-
-
-/* melisa's add */
 .dashboard {
   
   display: grid;
