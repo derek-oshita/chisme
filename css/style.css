@@ -101,7 +101,7 @@ background-color: red;
   left: 15%; 
   font-weight: bold;
   font-style: oblique;
-  margin-bottom: 188px;
+  margin-bottom: 15vh; 
   border-radius: 3%;
 }
 
@@ -299,8 +299,22 @@ h2 {
 
 .article-content {
   font-size: 12px; 
-  margin-bottom: 76px;
+  /* margin-bottom: 76px; */
+}
 
+#user {
+  width: 100vw; 
+  display: flex; 
+  justify-content: center;
+  height: 25vh; 
+  margin-top: 12px; 
+}
+
+.sign {
+  width: 59.5vw; 
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0;
 }
 
 /************************************************************************* 
@@ -405,6 +419,7 @@ footer {
   color: #fff;
   padding-bottom: 5px;
   border-bottom: 1px solid #fff;
+  cursor: pointer;
 }
 
 /************************************************************************* 
