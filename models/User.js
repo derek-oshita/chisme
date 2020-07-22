@@ -5,7 +5,7 @@ const userSchema = new mongoose.Schema(
     name: { type: String, required: true, minlength: 2 },
     email: { type: String, required: true, lowercase: true, trim: true },
   },
-  { timestamps: true }
+  { timestamps: true,}
 );
 
 const userModel = mongoose.model("User", userSchema);

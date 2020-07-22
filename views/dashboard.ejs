@@ -36,11 +36,9 @@
       <div class="divider"></div>
     </header>
   
-<<<<<<< HEAD
 
 
 
-=======
     <!-- LOGO -->
     <section class="container" id="logo-container">
       <h1>
@@ -57,8 +55,14 @@
       <p>
       <% users.forEach(user => { %>
         Name: <%= user.name %><br>
-        <br>
         Email: <%= user.email %><br>
+        Created: 
+      
+        <% const createdAt = user.createdAt.toString();%>
+        <% const splitDate = createdAt.split(' ');%>
+        <% const shortDate = splitDate.slice(0,4).join(' ');%>
+        <%= shortDate%><br><br>
+        
       <% });  %>
       </p>
     </div>
@@ -114,6 +118,5 @@
       <footer>
         <p>&copy; Chisme || 2020 </p>
       </footer>
->>>>>>> submaster
 </body>
 </html>
