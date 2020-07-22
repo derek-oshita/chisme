@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- STYLESHEET -->
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/style.css">
   <!-- BOOTSTRAP CSS CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <!-- JAVASCRIPT -->
@@ -15,36 +16,88 @@
 
   <!-- HEADER / NAV BAR -->
   <header class="container" id="nav-bar-container">
-    <ul>
-      <li class="nav-link">All News</li>
-      <li class="nav-link">Hot Topics</li>
-      <li class="nav-link">Videos</li>
-    </ul>
-    <!-- SIGN IN  -->
-    <button>
-      Sign In
-    </button>
-    <!-- MAGNIFYING GLASS  -->
-    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
-      <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
-    </svg>
+    <div class="container" id="nav-link-container">
+      <ul class="nav-link-list">
+        <li class="nav-link">All News</li>
+        <li class="nav-link">Hot Topics</li>
+        <li class="nav-link">Videos</li>
+      </ul>
+    </div>
+    <!-- ICONS     -->
+    <div class="icons-container">
+      <!-- SIGN IN  -->
+      <button class="sign-in-button">
+        <span class="sign-in">Sign In</span>
+      </button>
+      <div class="divider"></div>
+      <!-- MAGNIFYING GLASS  -->
+      <svg id="magnifying-glass" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+      </svg>
+      <div class="divider"></div>
     <!-- MENU -->
-    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-border-width" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
-    </svg>
+      <svg id="menu" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-border-width" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+    </div>
+    <div class="divider"></div>
   </header>
 
     <!-- LOGO -->
     <section class="container" id="logo-container">
       <h1>
-        Chisme
+        CHISME
       </h1>
     </section>
-    
+
+    <!-- LEFT CONTAINER (NOT BEING USED CURRENTLY)
+    <div class="container" id="left-container">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+    </div> -->
+
+    <!-- CENTER CONTAINER -->
+    <main>
+      <!-- IMAGE -->
+      <img>
+      <!-- ALLY DESCRIPTION -->
+      <div class="container" id="picture-description">
+        <p>
+          Picture: Kanye West standing alone on stage. 
+        </p>
+      </div>
+      <!-- MAIN ARTICLE -->
+      <div class="container" id="main-article">
+        <!-- MAIN ARTICLE HEADLINE -->
+        <p id="main-article-headline">
+          Kanye West Breaks Down During Bizarre Presidential Campaign Rally
+        </p>
+        <!-- MAIN ARTICLE CONTENT -->
+        <p id="main-article-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod, tellus ut rutrum consequat, nunc leo euismod massa, in ultrices ipsum tortor et libero. Nullam placerat velit ac est rhoncus, quis elementum justo eleifend. Nunc mi diam, malesuada et tempor at, scelerisque vel nulla. Quisque nulla nunc, facilisis eu est sit amet, tincidunt semper sem. Curabitur a tortor egestas, consequat neque eget, dapibus orci. Proin sodales lorem augue, non vehicula massa accumsan vel. Etiam non metus varius, viverra tortor convallis, dignissim odio. Aliquam erat volutpat. Vivamus aliquam congue metus sit amet bibendum. Fusce ut urna nec arcu pellentesque posuere. Nunc ut urna quis lorem porttitor sollicitudin. Suspendisse elementum mauris quis elit porta sollicitudin. Nulla quis metus sed mi maximus blandit.
+
+          Curabitur eget urna in metus pellentesque cursus ac eu quam. Cras eu semper nulla. Praesent congue tempor porta. Nunc massa diam, volutpat id ex sed, dictum consectetur eros. Nullam egestas ligula ac velit fermentum, ac laoreet erat scelerisque. Suspendisse suscipit ante lacus, nec dignissim enim vulputate sed. Integer blandit quam at lacinia finibus. Nam cursus sem non urna rutrum tristique. Aenean convallis lorem a elementum ornare. Proin lobortis nulla eu risus semper dapibus. Nunc purus felis, vulputate eu sem in, dignissim interdum arcu. Curabitur vel auctor ipsum. Suspendisse potenti. Phasellus tincidunt fermentum odio, rhoncus hendrerit libero bibendum eget. Nulla quis dui non arcu dictum hendrerit.
+
+        </p>
+      </div>
+    </main>
+
+    <!-- RIGHT CONTAINER (NOT BEING USED CURRENTLY)
+    <div class="container" id="right-container">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+    </div> -->
+
+    <!-- FORM GOES HERE -->
 
 
-
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; Chisme || 2020 </p>
+    </footer>
 
 
 </body>
