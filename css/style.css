@@ -38,6 +38,23 @@ header {
   align-items: center;
   background-color: #D90368; 
 }
+
+.sign{
+  display: flex;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: -90;
+  justify-content: center;
+}
+
+.fab{
+  color: #D90368;
+}
+
+.fa-facebook,.fa-instagram,.fa-twitter{
+  padding: 7px;
+}
+
  /*Stephen*/
 .videos {
 background-color: red;
@@ -52,20 +69,7 @@ background-color: red;
   font-family: Helvetica;
 }
 
-.sign{
-  font-size: xx-large;
-  text-align: center;
-  margin-top: -90;
-  justify-content: flex-start;
-}
 
-.name1{
-  flex: left;
-}
-
-.email1{
-  flex: 1;
-}
 #sub {
   font-weight: bold;
   text-align: left;
