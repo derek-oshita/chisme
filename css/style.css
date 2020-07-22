@@ -43,23 +43,21 @@ header {
 background-color: red;
 }
 
-.subscribe{
-  display: grid;
-  
-  
-  
+.stephen-Sub{
   height: 520px;
   width: 920px;
   font-family: Helvetica;
   border: 50px solid;
   border-color: rgb(229,205,200);
-  /* padding: 3%; */
-  /* margin: center; */
-  /* position: fixed;  */
-  /* left: 15%;  */
+  padding: 3%;
+  margin-left: 220px;
+  left: 15%; 
   font-weight: bold;
   font-style: oblique;
+  margin-bottom: 188px;
 }
+
+
 
 #sub {
   font-size: 48px;
@@ -87,7 +85,7 @@ background-color: red;
    margin-top: 10px;
 }
 
-.subscribeBtn  {
+.btn  {
     background-color: rgb(218,60,104);
     border-color: rgb(218,60,104);
     height: 74px;
@@ -105,7 +103,7 @@ background-color: red;
 
 }
 
-.subscribeBtn:hover {
+.btn:hover {
   color: #fff;
   padding-bottom: 5px;
   border-bottom: 1px solid #fff;
@@ -212,6 +210,8 @@ h2 {
 
 .article-content {
   font-size: 15px; 
+  margin-bottom: 76px;
+
 }
 
 /* FOOTER */
