@@ -2,15 +2,17 @@ const express = require('express');
 const router = express.Router();
 const db = require("../models");
 
-//current path /
+// CURRENT PATH: / 
 
-//home route
+// --- HOME ROUTE --- //
+
 router.get('/', (req, res) => {
   console.log(req.body)
   res.render('landing');
 });
 
-//task CREATE route
+// --- CREATE ROUTE --- //
+
 router.post('/', (req, res) => {
   const newUser = req.body;
   console.log(newUser)
@@ -19,10 +21,9 @@ router.post('/', (req, res) => {
     (err, createdUser) => {
       if (err) return console.log(err);
       console.log(createdUser)
-
       res.redirect('/dashboard');
     });
   });
 
-
+// --- EXPORT ROUTER --- //
 module.exports = router;

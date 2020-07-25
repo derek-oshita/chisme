@@ -200,6 +200,10 @@ ICONS
   border: none; 
 }
 
+.sign-up-button:hover {
+  cursor: pointer;
+}
+
 .magnifying-glass-container {
   text-align: center; 
 }
