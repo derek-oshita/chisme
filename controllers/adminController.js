@@ -2,7 +2,10 @@ const express = require("express");
 const router = express.Router();
 const db = require("../models");
 
-//current path /dashboard
+// CURRENT PATH: /dashboard
+
+// --- DASHBOARD --- // 
+
 router.get('/', (req, res) => {
   db.User.find(
     {},
@@ -14,4 +17,5 @@ router.get('/', (req, res) => {
     });
 });
 
+// --- EXPORT ROUTER --- // 
 module.exports = router;

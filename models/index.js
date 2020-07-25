@@ -1,6 +1,4 @@
 const mongoose = require('mongoose');
-require("dotenv").config();
-
 const connectionString = process.env.MONGODB_URI || 'mongodb://localhost:27017/chisme';
 
 mongoose.connect(connectionString, {
@@ -12,4 +10,5 @@ mongoose.connect(connectionString, {
   .then(() => console.log('MongoDB connected successfully'))
   .catch((err) => console.log(`MongoDB connection error: ${err}`))
 
+// --- EXPORT MODELS --- //
 module.exports = { User: require('./User') }
