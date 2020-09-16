@@ -34,6 +34,9 @@ Guillermo Sanchez
 
 ## Developers 
 
+Stephen Smith
+- https://www.linkedin.com/in/stephen-smith-morehouse18/
+
 Dillan Roby
 - https://www.linkedin.com/in/dillan-roby/
 
