@@ -26,19 +26,19 @@ Backend:
 
 ## Special Thanks to Our Design Team
 
-###Alex Lotti
+Alex Lotti
 - https://www.linkedin.com/in/alex-lotti/
 
-###Guillermo Sanchez
+Guillermo Sanchez
 - https://www.linkedin.com/in/theoaklandmemo/
 
 ## Developers 
 
-###Dillan Roby
+Dillan Roby
 - https://www.linkedin.com/in/dillan-roby/
 
-###Derek Oshita
+Derek Oshita
 - https://www.linkedin.com/in/doshita/
 
-###Melisa Larson
+Melisa Larson
 - https://www.linkedin.com/in/melisalarson/
